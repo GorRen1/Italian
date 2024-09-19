@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            border: 2px solid #333;
+            padding: 20px;
+            margin-top: 60px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 250px;
+            height: 200px;
+        }
+        #italian {
+            font-size: 3em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        #english {
+            margin-top: 10px;
+            display: none;
+        }
+        .button {
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        #showEnglish {
+            background-color: #6f42c1;
+            color: white;
+        }
+        .highlight {
+            background-color: #f39c12;
+        }
+        #progress {
+            margin-top: 15px;
+            padding-bottom: 20px;
+        }
+        .button:active {
+            opacity: 0.8;
+        }
+        .button:focus {
+            outline: none;
+        }
+        #message {
+            color: red;
+            margin-top: 15px;
+        }
+        #removeDialog, #resetDialog {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #333;
+            padding: 20px;
+            background-color: white;
+            z-index: 10;
+        }
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="removeDialog">
+    <p>This word will be removed from the database for the remainder of this session. You won't see it again unless you refresh the page.</p>
+    <label><input type="checkbox" id="dontShowAgain"> OK, I got it - don't show this again, just remove the word.</label><br><br>
+    <button class="button" id="continueRemove">Continue</button>
+    <button class="button" id="cancelRemove">Cancel</button>
+</div>
+
+<div id="resetDialog">
+    <p>All words are either correct or removed. Do you want to reset?</p>
+    <button class="button" id="yesReset">Yes</button>
+    <button class="button" id="noReset">No</button>
+</div>
+
+<div class="card" id="flashcard">
+    <div id="italian">Ciao</div>
+    <div id="english"></div>
+</div>
+
+<div>
+    <input type="checkbox" id="correctGuess" />
+    <label for="correctGuess">Correct</label>
+    <input type="checkbox" id="removePhrase" />
+    <label for="removePhrase">Remove</label>
+</div>
+
+<div id="progress">Progress: 0</div>
+
+<div>
+    <button class="button" id="showEnglish">Show English</button>
+</div>
+
+<div>
+    <button class="button" id="reset">Reset</button>
+    <button class="button" id="back" disabled>Back</button>
+    <button class="button highlight" id="random">Random</button>
+    <button class="button" id="next">Next</button>
+</div>
+
+<div>
+    <button class="button" id="showFirstCorrect">Show First Correct</button>
+    <button class="button" id="nextCorrect">Next Correct</button>
+</div>
+
+<div id="message" style="padding-bottom: 30px;"></div>
+
+<script>
+    const flashcards = [
+        { "italian": "ciao", "english": "hello", "correctGuess": false, "removePhrase": false },
+        { "italian": "grazie", "english": "thank you", "correctGuess": false, "removePhrase": false },
+        { "italian": "per favore", "english": "please", "correctGuess": false, "removePhrase": false },
+        { "italian": "si", "english": "yes", "correctGuess": false, "removePhrase": false },
+        { "italian": "no", "english": "no", "correctGuess": false, "removePhrase": false },
+        { "italian": "scusa", "english": "excuse me", "correctGuess": false, "removePhrase": false },
+        { "italian": "mi dispiace", "english": "I'm sorry", "correctGuess": false, "removePhrase": false },
+        { "italian": "bene", "english": "good", "correctGuess": false, "removePhrase": false },
+        { "italian": "male", "english": "bad", "correctGuess": false, "removePhrase": false },
+        { "italian": "prego", "english": "you're welcome", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è il bagno?", "english": "Where is the bathroom?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Quanto costa?", "english": "How much does it cost?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può aiutare?", "english": "Can you help me?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Non capisco", "english": "I don't understand", "correctGuess": false, "removePhrase": false },
+        { "italian": "Parla inglese?", "english": "Do you speak English?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi scusi, dov'è la fermata dell'autobus?", "english": "Excuse me, where is the bus stop?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è l'albergo?", "english": "Where is the hotel?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei una stanza", "english": "I would like a room", "correctGuess": false, "removePhrase": false },
+        { "italian": "Può portarmi il conto, per favore?", "english": "Can you bring me the bill, please?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È possibile avere un tavolo per due?", "english": "Is it possible to have a table for two?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può portare il menù, per favore?", "english": "Can you bring me the menu, please?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Qual è il piatto del giorno?", "english": "What is the dish of the day?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei prenotare un tavolo", "english": "I would like to reserve a table", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è il mercato?", "english": "Where is the market?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un supermercato vicino?", "english": "Is there a supermarket nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "A che ora apre il negozio?", "english": "What time does the shop open?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è la spiaggia più vicina?", "english": "Where is the nearest beach?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei comprare questo", "english": "I would like to buy this", "correctGuess": false, "removePhrase": false },
+        { "italian": "Accettate carte di credito?", "english": "Do you accept credit cards?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è la farmacia?", "english": "Where is the pharmacy?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È lontano da qui?", "english": "Is it far from here?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Come posso arrivare al centro?", "english": "How can I get to the center?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Quanto tempo ci vuole per arrivare lì?", "english": "How long does it take to get there?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un autobus per il porto?", "english": "Is there a bus to the port?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Quanto costa un biglietto?", "english": "How much does a ticket cost?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dove posso comprare i biglietti?", "english": "Where can I buy the tickets?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È sicuro nuotare qui?", "english": "Is it safe to swim here?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un'area per nuotare?", "english": "Is there a swimming area?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Qual è la specialità della casa?", "english": "What is the house specialty?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi potrebbe indicare la direzione?", "english": "Could you point me in the direction?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è il parcheggio?", "english": "Where is the parking?", "correctGuess": false, "removePhrase": false },
+        { "italian": "A che ora chiude il ristorante?", "english": "What time does the restaurant close?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può chiamare un taxi?", "english": "Can you call me a taxi?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei pagare in contanti", "english": "I would like to pay in cash", "correctGuess": false, "removePhrase": false },
+        { "italian": "Come posso andare al porto?", "english": "How can I get to the port?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Può dirmi l'orario del traghetto?", "english": "Can you tell me the ferry schedule?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È possibile noleggiare una bicicletta?", "english": "Is it possible to rent a bicycle?", "correctGuess": false, "removePhrase": false },
+        { "italian": "A che ora è la colazione?", "english": "What time is breakfast?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Posso avere una bottiglia d'acqua?", "english": "Can I have a bottle of water?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei fare una passeggiata", "english": "I would like to take a walk", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un sentiero per camminare?", "english": "Is there a walking trail?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è l'ufficio postale?", "english": "Where is the post office?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È possibile fare il check-in?", "english": "Is it possible to check in?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è una fermata dell'autobus vicina?", "english": "Is there a bus stop nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è la banca?", "english": "Where is the bank?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi potrebbe prestare una penna?", "english": "Could you lend me a pen?", "correctGuess": false, "removePhrase": false },
+        { "italian": "È questo il percorso giusto?", "english": "Is this the right way?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un medico nelle vicinanze?", "english": "Is there a doctor nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è una connessione Wi-Fi?", "english": "Is there Wi-Fi available?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un bancomat qui vicino?", "english": "Is there an ATM nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Quanto dista la stazione?", "english": "How far is the station?", "correctGuess": false, "removePhrase": false },
+        { "italian": "A che ora parte l'ultimo autobus?", "english": "What time does the last bus leave?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un ospedale qui vicino?", "english": "Is there a hospital nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può dare delle indicazioni?", "english": "Can you give me directions?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Come si arriva al centro storico?", "english": "How do you get to the historic center?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi piacerebbe visitare la chiesa", "english": "I would like to visit the church", "correctGuess": false, "removePhrase": false },
+        { "italian": "Ci sono attività per bambini?", "english": "Are there activities for children?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Posso pagare con la carta?", "english": "Can I pay by card?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Avete un tavolo all'aperto?", "english": "Do you have an outdoor table?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è un supermercato in questa zona?", "english": "Is there a supermarket in this area?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può consigliare un buon ristorante?", "english": "Can you recommend a good restaurant?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Vorrei fare una prenotazione", "english": "I would like to make a reservation", "correctGuess": false, "removePhrase": false },
+        { "italian": "È possibile ordinare da asporto?", "english": "Is it possible to order takeaway?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Dov'è l'ufficio informazioni?", "english": "Where is the information office?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Posso avere il menù del giorno?", "english": "Can I have the daily menu?", "correctGuess": false, "removePhrase": false },
+        { "italian": "C'è una fermata del taxi qui vicino?", "english": "Is there a taxi stop nearby?", "correctGuess": false, "removePhrase": false },
+        { "italian": "Mi può dire come arrivare alla stazione?", "english": "Can you tell me how to get to the station?", "correctGuess": false, "removePhrase": false },
+    ];
+
+    let currentIndex = 0;
+    let correctCount = 0;
+    let dontShowRemoveDialog = false;
+
+    function updateCard() {
+        do {
+            const card = flashcards[currentIndex];
+            if (card.removePhrase) {
+                currentIndex = (currentIndex + 1) % flashcards.length;
+            } else {
+                document.getElementById('italian').innerText = card.italian;
+                document.getElementById('english').innerText = card.english;
+                document.getElementById('correctGuess').checked = card.correctGuess;
+                document.getElementById('removePhrase').checked = card.removePhrase;
+
+                document.getElementById('progress').innerText = `Progress: ${correctCount}`;
+                document.getElementById('back').disabled = currentIndex === 0;
+
+                // Hide English when updating the card
+                document.getElementById('english').style.display = 'none';
+                document.getElementById('message').innerText = '';
+                break;
+            }
+        } while (true);
+    }
+
+    function checkAvailableCards() {
+        return flashcards.filter(card => !card.correctGuess && !card.removePhrase);
+    }
+
+    function randomCard() {
+        const availableCards = checkAvailableCards();
+        if (availableCards.length === 0) {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('resetDialog').style.display = 'block';
+            return;
+        }
+        const randomIndex = Math.floor(Math.random() * availableCards.length);
+        currentIndex = flashcards.indexOf(availableCards[randomIndex]);
+        updateCard();
+    }
+
+    document.getElementById('showEnglish').onclick = function() {
+        document.getElementById('english').style.display = 'block';
+    };
+
+    document.getElementById('back').onclick = function() {
+        if (currentIndex > 0) currentIndex--;
+        updateCard();
+    };
+
+    document.getElementById('random').onclick = function() {
+        randomCard();
+    };
+
+    document.getElementById('next').onclick = function() {
+        if (currentIndex < flashcards.length - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Go back to the first card
+        }
+        updateCard();
+    };
+
+    document.getElementById('correctGuess').onclick = function() {
+        flashcards[currentIndex].correctGuess = this.checked;
+        correctCount += this.checked ? 1 : -1;
+        updateCard();
+    };
+
+    document.getElementById('removePhrase').onclick = function() {
+        if (this.checked) {
+            if (dontShowRemoveDialog) {
+                flashcards[currentIndex].removePhrase = true;
+                updateCard();
+            } else {
+                document.getElementById('overlay').style.display = 'block';
+                document.getElementById('removeDialog').style.display = 'block';
+            }
+        } else {
+            flashcards[currentIndex].removePhrase = false; // Reset removePhrase if unchecked
+        }
+    };
+
+    document.getElementById('continueRemove').onclick = function() {
+        if (document.getElementById('dontShowAgain').checked) {
+            dontShowRemoveDialog = true;
+        }
+        flashcards[currentIndex].removePhrase = true;
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('removeDialog').style.display = 'none';
+        updateCard();
+    };
+
+    document.getElementById('cancelRemove').onclick = function() {
+        document.getElementById('removePhrase').checked = false; // Uncheck the Remove checkbox
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('removeDialog').style.display = 'none';
+    };
+
+    document.getElementById('reset').onclick = function() {
+        flashcards.forEach(card => {
+            card.correctGuess = false;
+        });
+        correctCount = 0;
+        updateCard();
+    };
+
+    document.getElementById('yesReset').onclick = function() {
+        correctCount = 0; // Reset correct count
+        currentIndex = 0; // Reset to the first card
+        updateCard();
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('resetDialog').style.display = 'none';
+    };
+
+    document.getElementById('noReset').onclick = function() {
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('resetDialog').style.display = 'none';
+    };
+
+    document.getElementById('showFirstCorrect').onclick = function() {
+        const firstCorrectIndex = flashcards.findIndex(card => card.correctGuess && !card.removePhrase);
+        if (firstCorrectIndex !== -1) {
+            currentIndex = firstCorrectIndex;
+            updateCard();
+        } else {
+            document.getElementById('message').innerText = 'No correct answers yet: please choose Next or Random to continue.';
+        }
+    };
+
+    document.getElementById('nextCorrect').onclick = function() {
+        const nextCorrectIndex = flashcards.findIndex((card, index) => card.correctGuess && index > currentIndex && !card.removePhrase);
+        if (nextCorrectIndex !== -1) {
+            currentIndex = nextCorrectIndex;
+            updateCard();
+        } else {
+            alert("No more correct cards.");
+        }
+    };
+
+    updateCard(); // Initial call to display the first card
+</script>
+
+</body>
+</html>
