@@ -1,116 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="removeDialog" class="dialog" style="display: none;">
+        <p>This word will be removed from the database for the remainder of this session. You won't see it again unless you refresh the page.</p>
+        <label>
+            <input type="checkbox" id="removeConfirm">
+            OK, I got it - don't show this again, just remove the word.
+        </label>
+        <div>
+            <button id="removeContinue">Continue</button>
+            <button id="removeCancel">Cancel</button>
+        </div>
+    </div>
 
-.card {
-    border: 2px solid #333;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-    width: 300px;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    <div id="resetDialog" class="dialog" style="display: none;">
+        <p>All words are either correct or removed. Do you want to reset?</p>
+        <div>
+            <button id="resetYes">Yes</button>
+            <button id="resetNo">No</button>
+        </div>
+    </div>
 
-#italian {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
+    <div class="set-selection">
+        <input type="radio" id="words1" name="set" value="Words1" checked>
+        <label for="words1">Words1</label>
+        <input type="radio" id="words2" name="set" value="Words2">
+        <label for="words2">Words2</label>
+        <input type="radio" id="phrases1" name="set" value="Phrases1">
+        <label for="phrases1">Phrases1</label>
+        <input type="radio" id="phrases2" name="set" value="Phrases2">
+        <label for="phrases2">Phrases2</label>
+    </div>
 
-#english {
-    margin-top: 10px;
-    display: none;
-}
+    <div class="card" id="flashcard">
+        <div id="italian"></div>
+        <div id="english" style="display: none;"></div>
+    </div>
 
-#progress {
-    margin: 20px 0;
-}
+    <div id="progress">Progress: 0</div>
 
-.checkbox-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
+    <div class="checkbox-group">
+        <input type="checkbox" id="correctGuess">
+        <label for="correctGuess">Correct</label>
+        <input type="checkbox" id="removePhrase">
+        <label for="removePhrase">Remove</label>
+    </div>
 
-.checkbox-group label {
-    margin-right: 20px;
-    font-size: 16px;
-}
+    <div class="all-buttons-container">
+        <div class="button-group">
+            <button class="button highlight" id="random">Random</button>
+            <button class="button" id="showEnglish">Show English</button>
+        </div>
 
-.checkbox-group input[type="checkbox"] {
-    margin-right: 5px;
-    transform: scale(1.2);
-}
+        <div class="button-group">
+            <button class="button" id="reset">Reset</button>
+            <button class="button" id="back" disabled>Back</button>
+            <button class="button" id="next">Next</button>
+        </div>
 
-.all-buttons-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin: 20px 0;
-}
+        <div class="button-group">
+            <button class="button" id="showFirstCorrect">Show First Correct</button>
+            <button class="button" id="nextCorrect">Next Correct</button>
+        </div>
+    </div>
 
-.button-group {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
+    <div id="message" style="padding-bottom: 30px; color: red;"></div>
 
-.button {
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    font-size: 14px;
-}
+    <div id="overlay"></div>
 
-.dialog {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    z-index: 1000;
-}
-
-#showEnglish {
-    background-color: #6f42c1;
-    color: white;
-}
-
-#random {
-    background-color: #c25c42;
-    color: white;
-}
-#message {
-    color: red;
-    margin: 15px 0;
-    min-height: 1em;
-}
-
-/* Remove the overlay and dialog styles if they're not needed */
-
-/* Remove the debug borders */
-/*
-#progress, .checkbox-group, #message, .all-buttons-container, #italian, #english {
-    border: 1px solid red;
-    padding: 5px;
-    margin: 5px 0;
-}
-*/
+    <script src="script.js"></script>
+</body>
+</html>
