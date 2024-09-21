@@ -1,0 +1,1339 @@
+[
+  {
+    "italian": "il",
+    "english": "the (masculine)",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "di",
+    "english": "of",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "a",
+    "english": "to",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "e",
+    "english": "and",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "in",
+    "english": "in",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "è",
+    "english": "is",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "che",
+    "english": "that",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "la",
+    "english": "the (feminine)",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "per",
+    "english": "for",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "con",
+    "english": "with",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "su",
+    "english": "on",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "come",
+    "english": "as",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ma",
+    "english": "but",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "io",
+    "english": "I",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "tu",
+    "english": "you (singular, informal)",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "lui",
+    "english": "he",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "lei",
+    "english": "she",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "noi",
+    "english": "we",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "voi",
+    "english": "you (plural)",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "loro",
+    "english": "they",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "da",
+    "english": "from",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "questo",
+    "english": "this",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quello",
+    "english": "that",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "si",
+    "english": "yes",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "no",
+    "english": "no",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "grazie",
+    "english": "thank you",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "prego",
+    "english": "you're welcome",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ciao",
+    "english": "hello / goodbye",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "scusa",
+    "english": "sorry",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "bene",
+    "english": "well / good",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "molto",
+    "english": "very",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "qui",
+    "english": "here",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "là",
+    "english": "there",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ora",
+    "english": "now",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "poi",
+    "english": "later",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "sempre",
+    "english": "always",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "mai",
+    "english": "never",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "oggi",
+    "english": "today",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "domani",
+    "english": "tomorrow",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ieri",
+    "english": "yesterday",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "molto",
+    "english": "much / many",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "poco",
+    "english": "little / few",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "anche",
+    "english": "also",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "solo",
+    "english": "only",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ogni",
+    "english": "every",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quando",
+    "english": "when",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "dove",
+    "english": "where",
+    "set": "words1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "perché",
+    "english": "why / because",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "dopo",
+    "english": "after",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "senza",
+    "english": "without",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "tra",
+    "english": "between",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "fra",
+    "english": "among",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "davanti",
+    "english": "in front of",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "dietro",
+    "english": "behind",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "sotto",
+    "english": "under",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "sopra",
+    "english": "above",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ancora",
+    "english": "still / yet",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quasi",
+    "english": "almost",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "già",
+    "english": "already",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "finché",
+    "english": "as long as",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "mentre",
+    "english": "while",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quindi",
+    "english": "therefore",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "sebbene",
+    "english": "although",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "siccome",
+    "english": "since",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "prima",
+    "english": "before",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "poi",
+    "english": "then",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "adesso",
+    "english": "now",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "sempre",
+    "english": "always",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "mai",
+    "english": "never",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "già",
+    "english": "already",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "subito",
+    "english": "immediately",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ancora",
+    "english": "again",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quasi",
+    "english": "almost",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "proprio",
+    "english": "really / exactly",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "anche",
+    "english": "also",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "solo",
+    "english": "only",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ogni",
+    "english": "every",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "nessuno",
+    "english": "nobody",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "tutto",
+    "english": "everything",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "qualcuno",
+    "english": "someone",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "niente",
+    "english": "nothing",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "qualche",
+    "english": "some",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "molto",
+    "english": "a lot",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "poco",
+    "english": "a little",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "tanto",
+    "english": "so much",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "ogni",
+    "english": "each",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "qualsiasi",
+    "english": "any",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "tutti",
+    "english": "everyone",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "qualcosa",
+    "english": "something",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "chi",
+    "english": "who",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "cosa",
+    "english": "what",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "come",
+    "english": "how",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "dove",
+    "english": "where",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quando",
+    "english": "when",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "perché",
+    "english": "why",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "quanto",
+    "english": "how much",
+    "set": "words2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+{
+    "italian": "Dov'è la stazione?",
+    "english": "Where is the station?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa il biglietto?",
+    "english": "How much is the ticket?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora parte il treno?",
+    "english": "What time does the train leave?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere una mappa della città?",
+    "english": "Can I have a city map?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un autobus per il centro?",
+    "english": "Is there a bus to the city center?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è l'imbarco per il traghetto?",
+    "english": "Where is the ferry boarding?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei due biglietti per il traghetto.",
+    "english": "I would like two ferry tickets.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una fermata del bus qui vicino?",
+    "english": "Is there a bus stop nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora chiude il museo?",
+    "english": "What time does the museum close?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei acquistare un biglietto per la mostra.",
+    "english": "I'd like to buy a ticket for the exhibition.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una guida in inglese?",
+    "english": "Is there an English guide?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è la biglietteria?",
+    "english": "Where is the ticket office?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare un tavolo per due.",
+    "english": "I'd like to book a table for two.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso vedere il menù, per favore?",
+    "english": "Can I see the menu, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il piatto del giorno?",
+    "english": "What is the dish of the day?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una specialità della casa?",
+    "english": "Is there a house specialty?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei ordinare un caffè, per favore.",
+    "english": "I'd like to order a coffee, please.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il conto, per favore.",
+    "english": "The bill, please.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare con la carta?",
+    "english": "Can I pay with card?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è il bagno, per favore?",
+    "english": "Where is the restroom, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa questo?",
+    "english": "How much is this?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Accettate carte di credito?",
+    "english": "Do you accept credit cards?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso provare questo?",
+    "english": "Can I try this on?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è uno sconto?",
+    "english": "Is there a discount?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere la ricevuta, per favore?",
+    "english": "Can I have the receipt, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei cambiare dei soldi.",
+    "english": "I would like to exchange some money.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è il bancomat più vicino?",
+    "english": "Where is the nearest ATM?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare un posto per lo spettacolo.",
+    "english": "I'd like to book a seat for the show.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora inizia il concerto?",
+    "english": "What time does the concert start?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è l'ingresso?",
+    "english": "Where is the entrance?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile fare delle foto qui?",
+    "english": "Is it possible to take photos here?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una visita guidata.",
+    "english": "I would like to book a guided tour.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto dura la visita?",
+    "english": "How long does the visit last?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è la fermata della metropolitana?",
+    "english": "Where is the subway stop?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può portare a questo indirizzo?",
+    "english": "Can you take me to this address?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per arrivare?",
+    "english": "How long does it take to get there?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un treno diretto per Firenze?",
+    "english": "Is there a direct train to Florence?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei noleggiare una bicicletta.",
+    "english": "I would like to rent a bicycle.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un parcheggio qui vicino?",
+    "english": "Is there a parking lot nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora apre la galleria?",
+    "english": "What time does the gallery open?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il percorso migliore per arrivarci?",
+    "english": "What is the best route to get there?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere una guida audio?",
+    "english": "Can I have an audio guide?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il museo è chiuso oggi?",
+    "english": "Is the museum closed today?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quando apre la prossima mostra?",
+    "english": "When does the next exhibition open?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una sala d'attesa?",
+    "english": "Is there a waiting room?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una fermata del tram nelle vicinanze?",
+    "english": "Is there a tram stop nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Questa strada porta al centro?",
+    "english": "Does this road lead to the center?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una farmacia aperta adesso?",
+    "english": "Is there a pharmacy open now?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+ {
+    "italian": "Come posso arrivare al centro città senza prendere un taxi?",
+    "english": "How can I get to the city center without taking a taxi?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il modo più veloce per arrivare alla stazione ferroviaria?",
+    "english": "What is the fastest way to get to the train station?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un treno che parte più tardi oggi?",
+    "english": "Is there a train that leaves later today?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrebbe dirmi dove si trova l'ufficio informazioni?",
+    "english": "Could you tell me where the information office is located?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per raggiungere l'aeroporto con l'autobus?",
+    "english": "How long does it take to reach the airport by bus?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Devo cambiare autobus per arrivare al museo?",
+    "english": "Do I need to change buses to get to the museum?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un modo per prenotare i biglietti del traghetto online?",
+    "english": "Is there a way to book ferry tickets online?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso acquistare i biglietti del treno in anticipo?",
+    "english": "Can I purchase train tickets in advance?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Devo convalidare il biglietto prima di salire sull'autobus?",
+    "english": "Do I need to validate my ticket before boarding the bus?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una tariffa ridotta per studenti o anziani?",
+    "english": "Is there a reduced fare for students or seniors?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei visitare un museo meno affollato.",
+    "english": "I would like to visit a less crowded museum.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una visita guidata in inglese disponibile oggi?",
+    "english": "Is there an English guided tour available today?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quali mostre temporanee sono attualmente in corso?",
+    "english": "Which temporary exhibitions are currently running?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto dura la visita guidata?",
+    "english": "How long does the guided tour last?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso prenotare i biglietti per un giorno diverso?",
+    "english": "Can I book tickets for a different day?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se c'è un evento speciale questa settimana.",
+    "english": "I'd like to know if there is a special event this week.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una riduzione per gruppi di dieci o più persone?",
+    "english": "Is there a discount for groups of ten or more people?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il miglior ristorante per provare la cucina locale?",
+    "english": "What is the best restaurant to try local cuisine?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei provare una specialità regionale. Cosa mi consiglia?",
+    "english": "I would like to try a regional specialty. What do you recommend?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un menù per bambini disponibile?",
+    "english": "Is there a children's menu available?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrebbe consigliare un vino che si abbina bene con questo piatto?",
+    "english": "Could you recommend a wine that pairs well with this dish?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi scusi, questo piatto non è quello che ho ordinato.",
+    "english": "Excuse me, this dish is not what I ordered.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrebbe portare un po' più di pane, per favore?",
+    "english": "Could you bring some more bread, please?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un'opzione vegetariana nel menù?",
+    "english": "Is there a vegetarian option on the menu?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Accettate prenotazioni per gruppi numerosi?",
+    "english": "Do you accept reservations for large groups?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un limite di tempo per rimanere seduti al tavolo?",
+    "english": "Is there a time limit for staying at the table?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una politica di reso per gli articoli acquistati?",
+    "english": "Is there a return policy for purchased items?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare in contanti oppure con carta di credito?",
+    "english": "Can I pay in cash or by credit card?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei spedire questo pacco all'estero. Quanto costa?",
+    "english": "I would like to send this package abroad. How much does it cost?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un negozio di souvenir nelle vicinanze?",
+    "english": "Is there a souvenir shop nearby?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare a rate per questo acquisto?",
+    "english": "Can I pay for this purchase in installments?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei fare una prenotazione per un tour privato.",
+    "english": "I would like to make a reservation for a private tour.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quali sono i termini di cancellazione per la prenotazione?",
+    "english": "What are the cancellation terms for the reservation?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono posti a sedere disponibili per lo spettacolo di stasera?",
+    "english": "Are there seats available for tonight's show?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un supplemento per i posti in prima fila?",
+    "english": "Is there an extra charge for front-row seats?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se ci sono sconti per gruppi.",
+    "english": "I would like to know if there are discounts for groups.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso acquistare i biglietti per l'opera?",
+    "english": "Where can I buy tickets for the opera?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una visita guidata con un esperto d'arte?",
+    "english": "Is there a guided tour with an art expert?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere di più sulla storia di questo dipinto.",
+    "english": "I would like to know more about the history of this painting.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una sezione dedicata all'arte moderna?",
+    "english": "Is there a section dedicated to modern art?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile organizzare una visita esclusiva fuori orario?",
+    "english": "Is it possible to arrange an exclusive after-hours visit?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare il catalogo della mostra?",
+    "english": "Where can I find the exhibition catalog?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei acquistare un biglietto combinato per più musei.",
+    "english": "I would like to purchase a combined ticket for multiple museums.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una prenotazione necessaria per vedere la collezione privata?",
+    "english": "Is a reservation required to see the private collection?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere un'audioguida in italiano, per favore?",
+    "english": "Can I have an audio guide in Italian, please?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora chiude la biglietteria?",
+    "english": "What time does the ticket office close?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una mostra temporanea che vorrei visitare. È inclusa nel biglietto?",
+    "english": "There is a temporary exhibition I would like to visit. Is it included in the ticket?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  }
+]
