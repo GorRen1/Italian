@@ -1335,5 +1335,1223 @@
     "set": "Phrases2",
     "correctGuess": false,
     "removePhrase": false
+  },
+  {
+    "italian": "Potrebbe indicarmi la strada per la stazione?",
+    "english": "Could you show me the way to the station?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile acquistare i biglietti online?",
+    "english": "Is it possible to buy tickets online?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per arrivare a piedi?",
+    "english": "How long does it take to get there on foot?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il treno per Roma parte dal binario cinque?",
+    "english": "Does the train to Rome leave from platform five?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora arriva il prossimo traghetto?",
+    "english": "What time does the next ferry arrive?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Devo prenotare il biglietto in anticipo?",
+    "english": "Do I need to book the ticket in advance?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo dura la traversata in traghetto?",
+    "english": "How long is the ferry ride?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il museo è aperto anche durante le festività?",
+    "english": "Is the museum open during holidays?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È necessaria una prenotazione per la visita guidata?",
+    "english": "Is a reservation required for the guided tour?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se ci sono riduzioni per bambini.",
+    "english": "I would like to know if there are discounts for children.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare informazioni sugli orari?",
+    "english": "Where can I find information about the schedule?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare i biglietti all'ingresso?",
+    "english": "Can I pay for the tickets at the entrance?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanti giorni in anticipo devo acquistare i biglietti?",
+    "english": "How many days in advance do I need to buy the tickets?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrebbe consigliarmi dove mangiare in zona?",
+    "english": "Could you recommend somewhere to eat nearby?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È necessario prenotare un tavolo in questo ristorante?",
+    "english": "Is it necessary to reserve a table at this restaurant?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso ordinare un piatto senza lattosio?",
+    "english": "Can I order a lactose-free dish?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un menù degustazione disponibile?",
+    "english": "Is there a tasting menu available?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se avete piatti per celiaci.",
+    "english": "I would like to know if you have gluten-free dishes.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei avere un bicchiere d'acqua del rubinetto?",
+    "english": "Could I have a glass of tap water?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può portare il conto quando è pronto?",
+    "english": "Can you bring me the bill when it's ready?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe consigliare un buon vino abbinato a questo piatto?",
+    "english": "Could you recommend a good wine to pair with this dish?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il mercato è aperto solo la mattina?",
+    "english": "Is the market open only in the morning?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe consigliare qualche prodotto tipico da acquistare?",
+    "english": "Could you recommend some typical products to buy?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei comprare delle spezie locali, dove posso trovarle?",
+    "english": "I would like to buy local spices, where can I find them?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può dire dove posso acquistare prodotti freschi?",
+    "english": "Can you tell me where I can buy fresh produce?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il miglior orario per visitare il mercato?",
+    "english": "What is the best time to visit the market?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei avere un sacchetto, per favore?",
+    "english": "Could I have a bag, please?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Che tipo di pane avete oggi?",
+    "english": "What kind of bread do you have today?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe dire se c'è una fermata dell'autobus nelle vicinanze?",
+    "english": "Could you tell me if there is a bus stop nearby?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora parte l'ultimo autobus per il centro?",
+    "english": "What time does the last bus to the city center leave?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un autobus notturno per tornare in albergo?",
+    "english": "Is there a night bus to return to the hotel?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può indicare la fermata più vicina?",
+    "english": "Can you show me the nearest bus stop?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per arrivare al centro con l'autobus?",
+    "english": "How long does it take to get to the center by bus?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso acquistare il biglietto a bordo?",
+    "english": "Can I buy the ticket on board?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile pagare con carta sull'autobus?",
+    "english": "Is it possible to pay by card on the bus?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una fermata della metropolitana vicino all'hotel?",
+    "english": "Is there a subway stop near the hotel?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il taxi accetta pagamenti con carta di credito?",
+    "english": "Does the taxi accept credit card payments?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa la corsa in taxi fino all'aeroporto?",
+    "english": "How much is the taxi ride to the airport?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È necessario prenotare un taxi in anticipo?",
+    "english": "Is it necessary to book a taxi in advance?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un servizio navetta per l'aeroporto?",
+    "english": "Is there a shuttle service to the airport?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe indicare dove posso trovare un bancomat?",
+    "english": "Could you tell me where I can find an ATM?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Il bancomat più vicino è sicuro di notte?",
+    "english": "Is the nearest ATM safe at night?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei cambiare dei soldi, dove posso farlo?",
+    "english": "I would like to exchange money, where can I do that?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può dire se c'è una banca aperta oggi?",
+    "english": "Can you tell me if there is a bank open today?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora apre la banca più vicina?",
+    "english": "What time does the nearest bank open?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe dare indicazioni per il parcheggio coperto più vicino?",
+    "english": "Could you give me directions to the nearest covered parking?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare un parcheggio gratuito?",
+    "english": "Where can I find free parking?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa parcheggiare per un'ora in centro?",
+    "english": "How much is parking for one hour in the city center?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono parcheggi riservati ai disabili?",
+    "english": "Are there parking spaces reserved for disabled people?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "L'hotel dispone di un parcheggio per gli ospiti?",
+    "english": "Does the hotel have parking for guests?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe consigliare un albergo con vista sul mare?",
+    "english": "Could you recommend a hotel with a sea view?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se ci sono camere disponibili per il weekend.",
+    "english": "I would like to know if there are rooms available for the weekend.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una camera con vista?",
+    "english": "How much is a room with a view?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile fare il check-in in anticipo?",
+    "english": "Is it possible to check in early?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso lasciare i bagagli in hotel dopo il check-out?",
+    "english": "Can I leave my luggage at the hotel after check-out?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un servizio di lavanderia disponibile in hotel?",
+    "english": "Is there a laundry service available at the hotel?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "L'albergo offre una navetta per il centro città?",
+    "english": "Does the hotel offer a shuttle to the city center?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quali sono le attrazioni turistiche principali in questa zona?",
+    "english": "What are the main tourist attractions in this area?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe consigliare un'escursione giornaliera?",
+    "english": "Could you recommend a day trip?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei sapere se ci sono tour organizzati per questa città.",
+    "english": "I would like to know if there are organized tours for this city.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è il modo migliore per visitare i dintorni?",
+    "english": "What is the best way to explore the surroundings?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un pacchetto speciale per visitare più musei?",
+    "english": "Is there a special package for visiting multiple museums?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quali sono gli eventi culturali in programma questo mese?",
+    "english": "What cultural events are scheduled this month?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe dire se c'è una mostra d'arte in corso?",
+    "english": "Could you tell me if there is an art exhibition happening?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei prenotare un biglietto per il teatro?",
+    "english": "Could I book a theater ticket?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una visita guidata privata?",
+    "english": "How much is a private guided tour?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "È possibile fare una visita guidata in inglese?",
+    "english": "Is it possible to have a guided tour in English?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può dire se c'è una caffetteria all'interno del museo?",
+    "english": "Can you tell me if there is a café inside the museum?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei acquistare un biglietto per una mostra temporanea.",
+    "english": "I would like to buy a ticket for the temporary exhibition.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo dura la visita guidata?",
+    "english": "How long does the guided tour last?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è l'orario migliore per evitare la folla?",
+    "english": "What is the best time to avoid the crowd?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono visite guidate disponibili la domenica?",
+    "english": "Are there guided tours available on Sundays?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe dire se è possibile fare foto all'interno del museo?",
+    "english": "Could you tell me if it's possible to take photos inside the museum?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei sapere se ci sono audioguide disponibili?",
+    "english": "Could I know if there are audio guides available?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una visita guidata per un gruppo di dieci persone.",
+    "english": "I would like to book a guided tour for a group of ten people.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono eventi serali al museo?",
+    "english": "Are there evening events at the museum?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe dire se ci sono sconti per comitive?",
+    "english": "Could you tell me if there are group discounts?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una camera doppia con colazione inclusa.",
+    "english": "I would like to book a double room with breakfast included.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe indicare se c'è un parcheggio custodito in zona?",
+    "english": "Could you tell me if there is a secure parking lot in the area?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un bar all'interno dell'hotel?",
+    "english": "Is there a bar inside the hotel?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei avere una camera con balcone, se disponibile?",
+    "english": "Could I have a room with a balcony, if available?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe indicare l'orario di apertura della piscina?",
+    "english": "Could you let me know the pool's opening hours?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un supermercato aperto 24 ore vicino all'hotel?",
+    "english": "Is there a 24-hour supermarket near the hotel?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei acquistare un biglietto per una giornata intera.",
+    "english": "I would like to buy a full-day ticket.",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Potrei sapere se ci sono ristoranti che servono cucina tradizionale?",
+    "english": "Could I know if there are restaurants serving traditional cuisine?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi potrebbe indicare dove posso affittare una bicicletta?",
+    "english": "Could you tell me where I can rent a bicycle?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una carta dei trasporti pubblici per una settimana?",
+    "english": "How much is a one-week public transport pass?",
+    "set": "Phrases2",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove si trova la stazione?",
+    "english": "Where is the train station?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa un biglietto per il treno?",
+    "english": "How much is a train ticket?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora parte il prossimo treno?",
+    "english": "What time does the next train leave?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare un biglietto per il traghetto.",
+    "english": "I would like to book a ferry ticket.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un traghetto per l'isola oggi?",
+    "english": "Is there a ferry to the island today?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa un biglietto per il traghetto?",
+    "english": "How much is a ferry ticket?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per arrivare?",
+    "english": "How long does it take to arrive?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora apre la galleria?",
+    "english": "What time does the gallery open?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora chiude il museo?",
+    "english": "What time does the museum close?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei due biglietti per la mostra.",
+    "english": "I would like two tickets for the exhibition.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono sconti per studenti?",
+    "english": "Are there discounts for students?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso comprare i biglietti?",
+    "english": "Where can I buy the tickets?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare con la carta di credito?",
+    "english": "Can I pay with a credit card?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare un tavolo per due.",
+    "english": "I would like to book a table for two.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un menù vegetariano?",
+    "english": "Is there a vegetarian menu?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è la specialità della casa?",
+    "english": "What is the house specialty?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere il conto, per favore?",
+    "english": "Can I have the bill, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può raccomandare un vino locale?",
+    "english": "Can you recommend a local wine?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei un bicchiere di vino rosso.",
+    "english": "I would like a glass of red wine.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Portate piatti senza glutine?",
+    "english": "Do you serve gluten-free dishes?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un mercato vicino?",
+    "english": "Is there a market nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa questo?",
+    "english": "How much does this cost?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso assaggiare questo formaggio?",
+    "english": "Can I taste this cheese?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi dà mezzo chilo di pomodori, per favore.",
+    "english": "Please give me half a kilo of tomatoes.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei comprare dell'olio d'oliva.",
+    "english": "I would like to buy some olive oil.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare il pane fresco?",
+    "english": "Where can I find fresh bread?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una fermata dell'autobus qui vicino?",
+    "english": "Is there a bus stop nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora parte l'autobus?",
+    "english": "What time does the bus leave?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una farmacia qui vicino?",
+    "english": "Is there a pharmacy nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso comprare i biglietti per l'autobus?",
+    "english": "Where can I buy bus tickets?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Qual è la strada per il centro?",
+    "english": "Which way is the city center?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanti minuti ci vogliono a piedi?",
+    "english": "How many minutes does it take on foot?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere una mappa della città?",
+    "english": "Can I have a city map?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dov'è l'ufficio turistico?",
+    "english": "Where is the tourist office?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una visita guidata disponibile?",
+    "english": "Is there a guided tour available?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una visita al museo.",
+    "english": "I would like to book a museum tour.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanti biglietti sono rimasti?",
+    "english": "How many tickets are left?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può aiutare a trovare un taxi?",
+    "english": "Can you help me find a taxi?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un parcheggio vicino?",
+    "english": "Is there a parking lot nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso pagare con contanti?",
+    "english": "Can I pay with cash?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa l'ingresso?",
+    "english": "How much is the entrance fee?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora è l'ultima visita guidata?",
+    "english": "What time is the last guided tour?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un tempo di attesa per entrare?",
+    "english": "Is there a waiting time to get in?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare un bancomat?",
+    "english": "Where can I find an ATM?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può dare indicazioni per l'albergo?",
+    "english": "Can you give me directions to the hotel?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una camera doppia.",
+    "english": "I would like to book a double room.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è la colazione inclusa?",
+    "english": "Is breakfast included?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora è il check-out?",
+    "english": "What time is check-out?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una bottiglia d'acqua?",
+    "english": "How much does a bottle of water cost?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere un menù, per favore?",
+    "english": "Can I have a menu, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei un caffè, per favore.",
+    "english": "I would like a coffee, please.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere un bicchiere d'acqua?",
+    "english": "Can I have a glass of water?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una stazione di servizio vicino?",
+    "english": "Is there a gas station nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso comprare una scheda SIM?",
+    "english": "Where can I buy a SIM card?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può chiamare un taxi, per favore?",
+    "english": "Can you call a taxi for me, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una corsa in taxi fino al centro?",
+    "english": "How much is a taxi ride to the city center?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è una connessione Wi-Fi disponibile?",
+    "english": "Is there Wi-Fi available?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costano le cartoline?",
+    "english": "How much are the postcards?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei comprare un souvenir.",
+    "english": "I would like to buy a souvenir.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un supermercato nelle vicinanze?",
+    "english": "Is there a supermarket nearby?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora chiude il negozio?",
+    "english": "What time does the shop close?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso comprare del vino?",
+    "english": "Where can I buy some wine?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può consigliare un buon ristorante?",
+    "english": "Can you recommend a good restaurant?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere la ricevuta, per favore?",
+    "english": "Can I have the receipt, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto tempo ci vuole per arrivare al museo?",
+    "english": "How long does it take to get to the museum?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora parte il prossimo autobus?",
+    "english": "What time does the next bus leave?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un ristorante che serve pesce?",
+    "english": "Is there a seafood restaurant?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei prenotare una visita guidata.",
+    "english": "I would like to book a guided tour.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Ci sono biglietti disponibili per il concerto?",
+    "english": "Are there tickets available for the concert?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove si possono acquistare i biglietti per il teatro?",
+    "english": "Where can I buy theater tickets?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere un biglietto per la corsa di andata e ritorno?",
+    "english": "Can I have a round-trip ticket?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora apre il bar?",
+    "english": "What time does the bar open?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Dove posso trovare una farmacia?",
+    "english": "Where can I find a pharmacy?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può indicare la strada per il mercato?",
+    "english": "Can you show me the way to the market?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei comprare delle verdure fresche.",
+    "english": "I would like to buy fresh vegetables.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa una bottiglia di vino?",
+    "english": "How much does a bottle of wine cost?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora chiude il mercato?",
+    "english": "What time does the market close?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere un tavolo vicino alla finestra?",
+    "english": "Can I have a table by the window?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei ordinare un antipasto.",
+    "english": "I would like to order an appetizer.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un supermercato aperto di domenica?",
+    "english": "Is there a supermarket open on Sunday?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa l'ingresso al museo?",
+    "english": "How much is the entrance to the museum?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Posso avere il menù del giorno, per favore?",
+    "english": "Can I have the daily menu, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Vorrei un bicchiere d'acqua frizzante.",
+    "english": "I would like a glass of sparkling water.",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "A che ora inizia la visita guidata?",
+    "english": "What time does the guided tour start?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Quanto costa un biglietto per la mostra?",
+    "english": "How much is a ticket for the exhibition?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "C'è un autobus che va al centro?",
+    "english": "Is there a bus to the city center?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
+  },
+  {
+    "italian": "Mi può dare una ricevuta, per favore?",
+    "english": "Can you give me a receipt, please?",
+    "set": "Phrases1",
+    "correctGuess": false,
+    "removePhrase": false
   }
 ]
